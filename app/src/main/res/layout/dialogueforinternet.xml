@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/gifdinternchk"
+        android:src="@drawable/checkintern"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:id="@+id/txtininternck"
+        android:background="@color/md_blue_400"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/gifdinternchk"
+        android:text="Checking internet connection..."
+        />
+      <TextView
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:background="@drawable/layoutforbuttons4"
+        android:text="Retry"
+        android:textSize="16sp"
+        android:id="@+id/retyinintern"
+        android:textColor="@color/White"
+        android:layout_below="@id/txtininternck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:visibility="visible"
+        />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
